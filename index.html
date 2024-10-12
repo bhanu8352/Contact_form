@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactusForm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="contact_container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="left_container"
+      >
+        <!-- Replace with your Access Key -->
+        <input
+          type="hidden"
+          name="access_key"
+          value="e48b90c2-5bf1-4d07-8eda-9cbea114fac0"
+        />
+        <div class="contact_left_title">
+          <h2>Contact US</h2>
+          <hr />
+        </div>
+        <input
+          class="contact_inputs"
+          type="text"
+          name="Name"
+          placeholder="Enter Your Name"
+        />
+        <input
+          class="contact_inputs"
+          type="email"
+          name="Email"
+          placeholder="Enter your email"
+          id=""
+        />
+        <textarea
+          class="Message"
+          name="Message"
+          placeholder="Enter your message"
+          id=""
+        >
+        </textarea>
+        <button type="submit">
+          Submit
+          <img src="./Assets/arrow_icon.png" alt="" />
+        </button>
+      </form>
+      <div class="right_container">
+        <img src="./Assets/sun.gif" alt="" srcset="" />
+      </div>
+    </div>
+  </body>
+</html>
